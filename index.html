@@ -1,163 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header-container">
-                    <img srcset="./images/logo.png 2x" alt="" class="header-logo">
-                    <ul class="menu">
-                        <li class="menu-item">
-                            <a href="#" class="menu-link">Features</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-link">Pricing</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-link">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="header-auth">
-                        <a href="#" class="btn-color">Log In</a>
-                        <a href="#" class="btn btn-primary">Start now</a>
-                    </div>
-                </div>
+      <header class="header">
+        <div class="container">
+          <div class="header-container">
+            <img srcset="./images/logo.png 2x" alt="" class="header-logo" />
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#" class="menu-link">Features</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Pricing</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Contact</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="btn-color menu--item-auth display-none">Log In</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="btn btn-primary menu--item-auth display-none">Start now</a>
+              </li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="header-auth">
+                <a href="#" class="btn-color menu--item-auth">Log In</a>
+                <a href="#" class="btn btn-primary menu--item-auth">Start now</a>
+        </div>
+        </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-image">
+            <img src="./images/hero-img.png" alt="" />
+          </div>
+          <div class="hero-content">
+            <h1 class="hero-header">
+              Simplify your online shipping for free this month!
+            </h1>
+            <p class="hero-detail">
+              Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad,
+              nam no suscipit quaerendum. At nam minimum ponderum. Est audiam
+              animal molestiae te.
+            </p>
+            <div class="hero-button">
+              <a href="#" class="btn btn-primary">Start free trial</a>
+              <a href="#" class="btn btn-lm">Learn more</a>
             </div>
-        </header>
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-container">
-                        <div class="hero-image">
-                            <img src="./images/hero-img.png" alt="">
-                        </div>
-                        <div class="hero-content">
-                            <h1 class="hero-header">Simplify your online shipping for free this month!</h1>
-                            <p class="hero-detail">
-                                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te.
-                            </p>
-                            <div class="hero-button">
-                                <a href="#" class="btn btn-primary">Start free trial</a>
-                                <a href="#" class="btn btn-lm">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <section class="intro">
+        <div class="container">
+          <div class="intro-container">
+            <div class="intro-content">
+              <h1 class="intro-header header-font">
+                Grow your business with better Shipping
+              </h1>
+              <p class="intro-detail detail-font">
+                We help the world’s leading organizations follow their shipping
+              </p>
+            </div>
+            <div class="intro-list">
+              <div class="intro-item opacity">
+                <div class="intro-icon">
+                  <img src="./images/briefcase.png" alt="" />
                 </div>
-            </section>
-            <section class="intro">
-                <div class="container">
-                    <div class="intro-container">
-                        <div class="intro-content">
-                            <h1 class="intro-header header-font">Grow your business with better Shipping</h1>
-                            <p class="intro-detail detail-font">We help the world’s leading organizations follow their shipping</p>
-                        </div>
-                        <div class="intro-list">
-                            <div class="intro-item opacity">
-                                <div class="intro-icon">
-                                    <img src="./images/briefcase.png" alt="">
-                                </div>
-                                <div class="intro-info">
-                                    <h3 class="title-font intro-title">Shipping communication</h3>
-                                    <div class="text-font intro-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur iuvaret vulputate sed.</div>
-                                    <a href="#" class="btn-color">Discover</a>
-                                </div>
-                            </div>
-                            <div class="intro-item">
-                                <div class="intro-icon">
-                                    <img src="./images/life buoy.png" alt="">
-                                </div>
-                                <div class="intro-info">
-                                    <h3 class="title-font intro-title">Shipping communication</h3>
-                                    <div class="text-font intro-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur iuvaret vulputate sed.</div>
-                                    <a href="#" class="btn-color">Discover</a>
-                                </div>
-                            </div>
-                            <div class="intro-item">
-                                <div class="intro-icon">
-                                    <img src="./images/spanner.png" alt="">
-                                </div>
-                                <div class="intro-info">
-                                    <h3 class="title-font intro-title">Shipping communication</h3>
-                                    <div class="text-font intro-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur iuvaret vulputate sed.</div>
-                                    <a href="#" class="btn-color">Discover</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="intro-info">
+                  <h3 class="title-font intro-title">Shipping communication</h3>
+                  <div class="text-font intro-text">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur iuvaret vulputate sed.
+                  </div>
+                  <a href="#" class="btn-color">Discover</a>
                 </div>
-            </section>
-            <section class="feature">
-                <div class="container">
-                    <div class="feature-container">
-                        <div class="feature-img">
-                            <img src="./images/1.png" alt="">
-                        </div>
-                        <div class="feature-content">
-                            <h2 class="feature-header header-font">Ad eos saepe lucilius, noster postulant philosophia ea usu, qui dicta sadipscing te.</h2>
-                            <p class="feature-detail detail-font">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
-                            <div class="feature-search">
-                                <input type="text" placeholder="Placeholder" class="feature-box">
-                                <a href="#" class="feature-btn btn btn-primary">Primary action</a>
-                            </div>
-                            <p class="feature-text text-font">By clicking “Primary action” you accepting ipsum dolor sit amet, sit ea brute mediocritatem, eu sed aliquam scripserit dissentiunt.</p>
-                        </div>
-                    </div>
-                    <div class="feature-container">
-                        <div class="feature-content">
-                            <h2 class="feature-header header-font">Fostering creativity and innovationeam definiebas reformidans, exerci persecuti</h2>
-                            <div class="feature-list">
-                                <div class="feature-item">
-                                    <img src="./images/box.png" alt="" class="feature-icon">
-                                    <p class="feature-detail font-detail">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
-                                </div>
-                                <div class="feature-item">
-                                    <img src="./images/truck.png" alt="" class="feature-icon">
-                                    <p class="feature-detail font-detail">At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="feature-img">
-                            <img src="./images/2.png" alt="">
-                        </div>
-                    </div>
+              </div>
+              <div class="intro-item">
+                <div class="intro-icon">
+                  <img src="./images/life buoy.png" alt="" />
                 </div>
-            </section>
-            <section class="footer">
-                <div class="container">
-                    <div class="footer-container">
-                        <div class="footer-list">
-                            <div class="footer-item">
-                                <img src="./images/3.png" alt="" class="footer-img">
-                                <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
-                                <p class="footer-text text-font">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                            </div>
-                            <div class="footer-item">
-                                <img src="./images/4.png" alt="" class="footer-img">
-                                <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
-                                <p class="footer-text text-font">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                            </div>
-                            <div class="footer-item">
-                                <img src="./images/5.png" alt="" class="footer-img">
-                                <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
-                                <p class="footer-text text-font">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                            </div>
-                            <div class="footer-item">
-                                <img src="./images/6.png" alt="" class="footer-img">
-                                <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
-                                <p class="footer-text text-font">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="intro-info">
+                  <h3 class="title-font intro-title">Shipping communication</h3>
+                  <div class="text-font intro-text">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur iuvaret vulputate sed.
+                  </div>
+                  <a href="#" class="btn-color">Discover</a>
                 </div>
-            </section>
-        </main>
+              </div>
+              <div class="intro-item">
+                <div class="intro-icon">
+                  <img src="./images/spanner.png" alt="" />
+                </div>
+                <div class="intro-info">
+                  <h3 class="title-font intro-title">Shipping communication</h3>
+                  <div class="text-font intro-text">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur iuvaret vulputate sed.
+                  </div>
+                  <a href="#" class="btn-color">Discover</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feature">
+        <div class="container">
+          <div class="feature-container">
+            <div class="feature-img">
+              <img src="./images/1.png" alt="" />
+            </div>
+            <div class="feature-content">
+              <h2 class="feature-header header-font">
+                Ad eos saepe lucilius, noster postulant philosophia ea usu, qui
+                dicta sadipscing te.
+              </h2>
+              <p class="feature-detail detail-font">
+                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad,
+                nam no suscipit quaerendum. At nam minimum ponderum. Est audiam
+                animal molestiae te. Ex duo eripuit mentitum.
+              </p>
+              <div class="feature-search">
+                <input
+                  type="text"
+                  placeholder="Placeholder"
+                  class="feature-box"
+                />
+                <a href="#" class="feature-btn btn btn-primary"
+                  >Primary action</a
+                >
+              </div>
+              <p class="feature-text text-font">
+                By clicking “Primary action” you accepting ipsum dolor sit amet,
+                sit ea brute mediocritatem, eu sed aliquam scripserit
+                dissentiunt.
+              </p>
+            </div>
+          </div>
+          <div class="feature-container">
+            <div class="feature-content">
+              <h2 class="feature-header header-font">
+                Fostering creativity and innovationeam definiebas reformidans,
+                exerci persecuti
+              </h2>
+              <div class="feature-list">
+                <div class="feature-item">
+                  <img src="./images/box.png" alt="" class="feature-icon" />
+                  <p class="feature-detail font-detail">
+                    Et has minim elitr intellegat. Mea aeterno eleifend antiopam
+                    ad, nam no suscipit quaerendum.
+                  </p>
+                </div>
+                <div class="feature-item">
+                  <img src="./images/truck.png" alt="" class="feature-icon" />
+                  <p class="feature-detail font-detail">
+                    At nam minimum ponderum. Est audiam animal molestiae te. Ex
+                    duo eripuit mentitum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-img">
+              <img src="./images/2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-list">
+              <div class="footer-item">
+                <img src="./images/3.png" alt="" class="footer-img" />
+                <div class="footer-content">
+                  <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
+                  <p class="footer-text text-font">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur.
+                  </p>
+                </div>
+              </div>
+              <div class="footer-item">
+                <img src="./images/4.png" alt="" class="footer-img" />
+                <div class="footer-content">
+                  <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
+                  <p class="footer-text text-font">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur.
+                  </p>
+                </div>
+              </div>
+              <div class="footer-item">
+                <img src="./images/5.png" alt="" class="footer-img" />
+                <div class="footer-content">
+                  <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
+                  <p class="footer-text text-font">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur.
+                  </p>
+                </div>
+              </div>
+              <div class="footer-item">
+                <img src="./images/6.png" alt="" class="footer-img" />
+                <div class="footer-content">
+                  <h6 class="footer-title title-font">Ad eos saepe lucilius</h6>
+                  <p class="footer-text text-font">
+                    At eripuit signiferumque sea, vel ad mucius molestie, cu
+                    labitur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
